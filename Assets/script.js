@@ -3,8 +3,15 @@ var generateBtn = document.querySelector("#generate");
 
 // Write password to the #password input
 function writePassword() {
-  event.preventDefault()
-  var password = generatePassword(hasUpper, hasLower, hasNumbers);
+  var hasLowercase = 
+  var hasUppercase = 
+  var hasNumbers = 
+  var hasSpecialcharacters = 
+  var password = generatePassword(
+    var password = ()
+    var userCharacters = ()
+  );
+  var length = prompt()
   var passwordText = document.querySelector("#password");
 
   passwordText.value = password;
