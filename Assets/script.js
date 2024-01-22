@@ -5,9 +5,10 @@ var generateBtn = document.querySelector("#generate");
 function writePassword() {
   var num = (1,2);
   var hasUpper = ("A", "Z");
-  var lower = ("a","z");
+  var hasLower = ("a","z");
   var special = ("$","*");
   var password = generatePassword(
+    userChoice = (num, hasUpper, hasLower, special)
   );
 
   var passwordText = document.querySelector("#password");
