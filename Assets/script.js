@@ -10,6 +10,17 @@ function writePassword() {
   var password = generatePassword(
     userChoice = (num, hasUpper, hasLower, special)
   );
+  var length = window.prompt('How many characters would you like between 8 and 128?');
+
+  if {
+    (userChoice >= 8, correct: true);
+    (userChoice <= 128, correct: true);
+  };
+
+  if else {
+    (userChoice == false);
+    window.prompt ('Adjust value');
+  };
 
   var passwordText = document.querySelector("#password");
   passwordText.value = password;
