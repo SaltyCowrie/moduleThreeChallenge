@@ -1,4 +1,3 @@
-// Assignment Code
 var generateBtn = document.querySelector("#generate");
 
 // Write password to the #password input
@@ -12,27 +11,27 @@ function writePassword() {
 
     let num = prompt("are numbers ok to use?")
     if { 
-
-    } else { 
-
+      userChoice: true;
+    } else if { 
+      userChoice: false;
     };
     let hasUpper = prompt("are uppercase letters ok?")
     if {
-
-     } else { 
-
+      userChoice: true;
+     } else if { 
+      userChoice: false;
      };
     let hasLower = prompt("are lower case letters ok?")
     if { 
-
-    } else { 
-
+      userChoice: true;
+    } else if{ 
+      userChoice: false;
     };
     let hasSpecial = prompt("are special characters ok?")
     if {
-
-     } else {
-
+      userChoice: true;
+     } else if {
+      userChoice: false;
       };
   });
 
