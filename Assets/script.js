@@ -13,12 +13,12 @@ function writePassword() {
   var length = window.prompt('How many characters would you like between 8 and 128?');
 
   if {
-    (userChoice >= 8, correct: true);
-    (userChoice <= 128, correct: true);
+    (length >= 8, correct: true);
+    (length <= 128, correct: true);
   };
 
   if else {
-    (userChoice == false);
+    (length = false);
     window.prompt ('Adjust value');
   };
 
