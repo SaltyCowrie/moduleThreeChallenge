@@ -1,12 +1,5 @@
 var generateBtn = document.querySelector("#generate");
 
-// variables
-var passwordLength = 8;
-var includeUpper = true;
-var includeLower = true;
-var includeSpecial = true;
-var includeNumbers = true;
-
 // Write password to the #password input
 function writePassword() {
 
@@ -15,10 +8,12 @@ function writePassword() {
   var hasLower = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o","p","q","r","s","t","u","v","w","x","y","z"];
   var hasSpecial = ["$","*","&","%","@"];
 
-  var password = generatePassword(hasLower, hasNumbers, hasSpecial, hasUpper);
+  var password = generatePass();
   var passwordText = document.querySelector("#password");
   
   passwordText.value = password;
+
+
 };
 
 
