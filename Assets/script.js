@@ -17,17 +17,20 @@ function generatePassword() {
 
 
   // Confirming given criteria for pass word
+  var length = confirm("Can I make the password 5 characters?")
+  if (length === false) {return "Please try again"}
+
   var numbers = confirm("Are numbers okay?")
-  if (numbers) {userChoice += hasNumbers;} else {return "Please add numbers"}
+  if (numbers === false) {return "Please add numbers"}
 
   var upper = confirm("Are uppercase characters okay?")
-  if (upper) {userChoice += hasUpper;} else {return "Please add uppercase"}
+  if (upper === false) {return "Please add uppercase"}
 
   var lower = confirm("Are lowercase characters okay?")
-  if (lower) {userChoice += hasLower;} else {return "Please add lowercase"}
+  if (lower === false) {return "Please add lowercase"}
 
   var special = confirm("Are special characters okay?")
-  if (special) {userChoice += hasSpecial;} else {return "Please add special"}
+  if (special === false) {return "I only know so much"}
 
   // TODO: Randomize function
   Math.random()
